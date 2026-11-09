@@ -21,6 +21,7 @@ layout: default
   <article class="pf-container" style="max-width:900px; margin:0 auto; padding:56px 32px 88px;">
     <div class="pf-release-content" style="background:#fff; border:1px solid #EAECF2; border-radius:20px; padding:36px; box-shadow:0 18px 44px -30px rgba(20,26,45,.22); color:#4A5361; font-size:17px; line-height:1.65;">
       {{ content }}
+      {% include release-date.html date=page.release_date %}
     </div>
   </article>
 </main>
